@@ -1,0 +1,42 @@
+.flexcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 350px;
+    padding: 50px;
+    flex-flow: initial;
+}
+
+
+*{
+    font-family: 'Calibri';
+    color: antiquewhite;
+    background:linear-gradient(to bottom, #333333, #4D4D4D, #666666, #808080);
+    background-attachment: fixed;
+}
+
+.Personagens{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 50px;
+    font-style:italic;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
