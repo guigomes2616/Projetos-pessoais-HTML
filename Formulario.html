@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+    <h1> Pesquisa de Interesses </h1>
+</header>
+
+    <!--FORM = Inicia o formulário-->
+    <!--ACTION = Define para onde os dados do formulário serão enviados-->
+    <!--METHOD:POST = Define o método de envio como POST. Isso é usado para enviar os dados do formulário de forma mais segura-->
+
+    <form name="form1" 
+    action="Formulario-dados.html"
+    method="post">
+
+</form>
+
+<div class="input">
+    <label for="nome"> Nome: </label> <!--LABEL = Rótulos para os campos do formulário. O atributo FOR associa o rótulo ao campo de entrada pelo atributo ID-->
+
+    <!--INPUT = Campos de entrada-->
+
+    <input type="text"
+    name="txt_nome"
+    id="nome"
+    maxlength="25"
+    size="25"
+    required> <!--REQUIRED = Atributo que torna os campos obrigatórios para preenchimento-->
+</div>
+
+<div class="input">
+    <label for="senha">Senha:</label>
+
+    <input type="password" 
+    name="txt_senha" 
+    id="senha" 
+    placeholder="Digite Aqui"
+    required
+    minlength="8">
+    
+</div>
+
+<div class="input">
+    <label for="email"> E-mail:</label>
+
+    <input type="email"
+    name="txt_email" 
+    id="email" 
+    required>
+</div>
+
+<div class="input">
+    <label for="nascimento"> Data de Nacimento: </label>
+
+    <!--MAX = data maxima que pode ser preenchida-->
+    <!--MIN = data mimina que pode ser preenchida-->
+
+    <input type="date"
+    name="date_nasc"
+    id="nascimento"
+    max="2023-12-31"
+    min="2000-01-01">
+</div>
+
+<div class="input">
+    <label> Selecione os seus genêros de filmes favoritos: </label><br>
+
+    <!--CHECKBOX = permite que o usuário selecione uma ou várias opções-->
+    <!--CHECKED = já seleciona uma opção automatica-->
+
+    <input type="checkbox" name="ck_romance" checked><label> Romance </label><br>
+    <input type="checkbox" name="ck_ação"><label> Ação </label><br>
+    <input type="checkbox" name="ck_terror"><label> Terror </label><br>
+    <input type="checkbox" name="ck_comédia"><label> Comédia </label><br>
+</div>
+
+<div class="input">
+    <label> Quem estava certo? </label><br>
+
+    <!--RADIO = cria um campo "bola" para selecionar-->
+
+    <input type="radio" name="rd_escolha" value="Kira" checked><label> Kira </label><br>
+    <input type="radio" name="rd_escolha" value="L"><label> L </label><br>
+</div>
+
+<div class="input">
+    <label>Escolha um anime</label><br>
+
+    <!--SELECT = Inicia o elemento de seleção-->
+    <!--OPTION = Define as opções disponíveis no menu suspenso. Cada <option> possui um valor-->
+    <!--VALUE = é o valor que será enviado quando o checkbox estiver marcado e o formulário for enviado-->
+
+    <select name="sel_anim">
+        <option value="A">A Viagem de Chihiro</option>
+        <option value="B">Bungou Stray Dogs</option>
+        <option value="C">Code Geass</option>
+        <option value="D">Demon Slayer</option>
+        <option value="E">Evangelion</option>
+        <option value="F">Fullmetal</option>
+    </select>
+</div>
+
+<div class="input">
+    <label>Deixe seu comentário:</label><br>
+
+<!--TEXTARE = Campo de entrada de texto multilinha para a mensagem-->
+
+    <textarea name="ta_coment" id=""></textarea>
+</div>
+
+<div class="input">
+
+<!--SUBMIT = Botão de envio do formulário-->
+<!--VALUE = é o valor que será enviado quando o checkbox estiver marcado e o formulário for enviado-->
+
+    <input type="submit" value="Enviar Formulário">
+</div>
+
+<div class="input">
+
+<!--RESET = botão de reset do formulario, limpando tudo que foi inserido-->
+
+    <input type="reset" value="Limpar">
+</div>
+
+    </form>
+
+</body>
+
+</html>
