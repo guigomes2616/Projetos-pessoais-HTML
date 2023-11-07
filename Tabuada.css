@@ -6,19 +6,18 @@
 
 header{
     text-align: center;
-    background-color: darkslateblue;
-    color: aliceblue;
+    background-color: darkkhaki;
+
 }
 
 form{
     text-align: center;
     margin: 50px;
-    color: aliceblue;
 }
 
 #result{
     text-align: center;
     margin: 100px;
     padding: 100px;
-    background-color: blueviolet;
+    background-color:darkkhaki;
 }
