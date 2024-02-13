@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+div{
+    text-align: center;
+    margin-top: 15%;
+}
+
+button{
+    height: 2.5em;
+    width: 5.5em;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#ini{
+    background-color: green;
+}
+
+#pau{
+    background-color: gray;
+}
+
+#par{
+    background-color: red;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20%;
+}

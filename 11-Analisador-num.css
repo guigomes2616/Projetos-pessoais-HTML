@@ -1,0 +1,52 @@
+*{
+    font-family: 'Calibri';
+}
+
+body{
+    background-color: rgb(12, 124, 91);
+    color: white;
+}
+
+header{
+    text-align: center;
+    padding: 4%;
+}
+
+section{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+    margin: auto;
+    padding: 2%;
+    width: 450px;
+}
+
+input{
+    margin: 2px;
+    padding: 0;
+    width: auto; 
+}
+
+#btnadi, #btnfin{
+    font-style: italic;
+}
+
+#btnadi:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+#btnfin:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+option{
+    width: 130px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}

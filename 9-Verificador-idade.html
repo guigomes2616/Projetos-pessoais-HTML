@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="9-Verificador-idade.css">
+    <title>Verificador de idade</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    
+    <section>
+
+        <div>
+
+            <label>Ano de Nascimento:</label>
+            <input type="number" name="txtdate" id="txtdate" min="0"><br>
+
+            <label>Sexo:</label>
+            <input type="radio" name="radiosex" id="masc" checked>
+            <label for="masc">Masculino</label>
+
+            <input type="radio" name="radiosex" id="fem">
+            <label for="fem">Feminino</label><br>
+
+            <input id="button" type="button" value="Verificar" onclick="verificar()">
+
+        </div>
+
+        <div id="resultado">
+
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+
+        <script src="9-Verificador-idade.js"></script>
+
+    </section>
+
+    <footer>
+
+        <p> &copy; Guilherme Gomes da Silva</p>
+
+    </footer>
+    
+</body>
+
+</html>

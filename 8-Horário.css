@@ -1,0 +1,45 @@
+*{
+    font-family:'Calibri';
+}
+
+body{
+    background-color: rgb(29, 21, 43);
+    color: antiquewhite;
+}
+
+header{ 
+    color: antiquewhite;
+    text-align: center; /*Alinha o texto*/
+    padding: 4%;
+
+}
+
+section{
+    background-color: antiquewhite;
+    border-radius: 10px; /*Raio da Borda (deixa arredondado)*/
+    padding: 15px;
+    width: 500px;
+    margin: auto; /*Alinha automaticamente a section (centro)*/
+    color: black;
+    box-shadow: 3px 3px 8px rgb(80, 80, 80); /*Sombra da caixa - 3px(esquerda) 3px(base) 8px(espalhamento da sombra) - cinza */
+}
+
+footer{
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    padding: 50px;
+}
+
+#imagem{
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}

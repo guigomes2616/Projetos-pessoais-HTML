@@ -1,0 +1,187 @@
+/*Cabeçalho-----------------------------------------------------------*/
+*{
+    background-color:rgb(228, 224, 173); /* Define cor de fundo (bege) para todos os elementos na página */
+}
+
+header{ /* Estilo do Cabeçalho */
+
+    display: flex; /* Usa o modelo de layout flexível para organizar os itens */
+    background-color: black; /* Fundo preto */
+    color: aliceblue; /* Texto em azul claro */
+    justify-content: space-between; /* Espaço uniforme entre os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    padding: 2px; /* Adiciona um pequeno espaço interno */
+}
+
+nav{ /* Estilo da Navegação */
+
+    background-color: black; /* Fundo preto */
+}
+
+nav ul{
+
+    list-style-type: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno padrão das listas */
+    display: flex; /* Usa o modelo de layout flexível para os itens da lista */
+    background-color: black; /* Fundo preto */
+}
+
+nav li{
+
+    margin-right: 20px; /* Adiciona margem à direita para espaçar os itens da lista */
+    background-color: black; /* Fundo preto */
+}
+
+nav ul li a {
+
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    background-color: black; /* Fundo preto */
+    color: aliceblue; /* Texto em azul claro */
+}
+
+h1{ /* Estilo do Título 1 */
+
+    background-color: black; /* Fundo preto */
+    margin: 10px; /* Adiciona margem ao redor do título */
+}
+
+.opcao:hover{ /* Efeito ao Passar o Mouse */
+
+    transform:scale(1.2); /* Aumenta o tamanho em 20% quando o mouse passa sobre elementos com a classe 'opcao' */
+}
+
+/*Página inicial ---------------------------------------------------*/
+
+.p1{ /* Estilo para a classe .p1 */
+
+    font-size: 170%; /* Define o tamanho da fonte */
+    margin: 20%; /* Adiciona margem */
+    text-align: center; /* Centraliza o texto */
+    grid-area: esq; /* Define a área do grid */
+    padding: 0px; /* Adiciona preenchimento */
+}
+
+.img1:hover{ /* Efeito de escala ao passar o mouse para a classe .img1 */
+
+    transform:scale(1.1); /* Aumenta a escala ao passar o mouse */
+}
+
+.img1{ /* Estilo para a classe .img1 */
+
+    width: 75%; /* Define a largura */
+    height: 95%; /* Define a altura */
+    padding: 10px; /* Adiciona preenchimento */
+    grid-area: dir; /* Define a área do grid */
+}
+
+.grid1{ /* Estilo para o grid com a classe .grid1 */
+
+    display: grid; /* Usa o modelo de layout grid */
+    grid-template-columns: repeat(2, 1fr); /* Define duas colunas com largura flexível */
+    grid-template-rows: repeat(2, 300px); /* Define duas linhas com altura fixa */
+    grid-template-areas: "esq dir" 
+                         "esq dir"; /* Define as áreas do grid */
+    gap: 10px; /* Adiciona espaço entre as células do grid */
+    padding: 30px; /* Adiciona preenchimento */
+} 
+
+/* História -----------------------------------------------------*/
+
+#conteudo{ /* Estilo para o conteúdo com o id #conteudo */
+
+display: none; /* Oculta o elemento */
+}
+
+button { /* Estilo para botões */
+    
+    margin: 30px 600px 80px; /* Define a margem */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    font-size: 14px; /* Define o tamanho da fonte */
+    background-color: black; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+    transition: background-color 0.3s; /* Adiciona uma transição de cor de fundo */
+    font-family: 'Calibri'; /* Define a fonte */
+  }
+
+  button:hover { /* Efeito de escala ao passar o mouse para botões */
+
+    background-color:dimgrey; /* Muda a cor de fundo ao passar o mouse */
+    transform:scale(1.1); /* Aumenta a escala ao passar o mouse */
+  }
+
+h2{ /* Estilo para o título h2 */
+
+    font-size: 150%; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    background-color: black; /* Define a cor de fundo */
+    color: aliceblue; /* Define a cor do texto */
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 10px; /* Adiciona preenchimento */
+}
+
+p{ /* Estilo para parágrafos */
+
+    font-size: 145%; /* Define o tamanho da fonte */
+    margin:5%; /* Adiciona margem */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona preenchimento */
+}
+
+iframe{ /* Estilo para iframes (video do youtube) */
+
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 80px; /* Adiciona preenchimento */
+    display: block; /* Torna o elemento um bloco */
+}
+
+/*Pesquisas ----------------------------------------------------*/
+
+.container{ /* Estilo para a classe .container */
+
+    display: flex; /* Usa o modelo de layout flexível */
+    justify-content:center; /* Centraliza horizontalmente */
+}
+
+.img2{ /* Estilo para a classe .img2 */
+
+    width: 40%; /* Define a largura */
+    height: 70%; /* Define a altura */
+    margin: 50px; /* Adiciona margem */
+    padding: 10px; /* Adiciona preenchimento */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.img2:hover{ /* Efeito de escala ao passar o mouse para a classe .img2 */
+
+    transform:scale(1.1); /* Aumenta a escala ao passar o mouse */
+}
+
+.img3{ /* Estilo para a classe .img3 */
+
+    width: 40%; /* Define a largura */
+    height: 70%; /* Define a altura */
+    margin: 50px; /* Adiciona margem */
+    padding: 10px; /* Adiciona preenchimento */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.img3:hover{ /* Efeito de escala ao passar o mouse para a classe .img3 */
+    transform:scale(1.1); /* Aumenta a escala ao passar o mouse */
+}
+
+footer{ /* Estilo para o rodapé */
+
+    background-color: black; /* Define a cor de fundo */
+    color: aliceblue; /* Define a cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 2px; /* Adiciona preenchimento */
+}
+
+.rodapé{ /* Estilo para a classe .rodapé */
+
+    background-color: black; /* Define a cor de fundo */
+    color: aliceblue; /* Define a cor do texto */
+    margin: 10px; /* Adiciona margem */
+    padding: 10px; /* Adiciona preenchimento */
+}

@@ -1,0 +1,36 @@
+*{
+    font-family: 'Calibri';
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+section{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 2%;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 8px rgb(80, 80, 80);
+}
+
+input{
+    padding: 0px;
+    margin: 5px;
+    width: 70px;   
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
